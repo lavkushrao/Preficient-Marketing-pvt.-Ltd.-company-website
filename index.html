@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Preficient Enterprises Marketing Private Limited</title>
+
+    <!-- Font & Icons -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav-container">
+        <div class="logo">
+          <img src="logo.png" alt="Company Logo" />
+        </div>
+        <nav class="nav">
+          <a href="#home">Home</a>
+          <a href="#about">Company</a>
+          <a href="#services">Services</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <section id="home" class="banner">
+      <div class="container banner-content">
+        <h1 class="brand-title">Preficient Enterprises</h1>
+        <h2 class="sub-title">Marketing Private Limited</h2>
+        <p class="banner-desc">
+          Protecting futures, building trust — smart insurance solutions
+          designed around every customer’s needs.
+        </p>
+        <button class="primary-btn" onclick="scrollToSection('about')">
+          Discover More
+        </button>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">Company Overview</h2>
+        <div class="about-grid">
+          <div class="about-card">
+            <h3>Founder</h3>
+            <p>Mr. John Doe — Insurance strategy expert.</p>
+          </div>
+          <div class="about-card">
+            <h3>Employees</h3>
+            <p>50+ professionals delivering trusted protection.</p>
+          </div>
+          <div class="about-card">
+            <h3>Mission</h3>
+            <p>Providing reliable insurance security for all.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section light-bg">
+      <div class="container">
+        <h2 class="section-title">Insurance Services</h2>
+        <div class="services-grid">
+          <div class="service-card">
+            <h3>Life Insurance</h3>
+            <p>Financial protection for families.</p>
+          </div>
+          <div class="service-card">
+            <h3>Health Insurance</h3>
+            <p>Complete medical coverage.</p>
+          </div>
+          <div class="service-card">
+            <h3>Business Insurance</h3>
+            <p>Risk solutions for companies.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section">
+      <div class="container">
+        <h2 class="section-title">Company Gallery</h2>
+        <div class="gallery-grid">
+          <img
+            src="https://images.unsplash.com/photo-1556761175-b413da4baf72"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1522071820081-009f0129c71c"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1522071820081-009f0129c71c"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1522071820081-009f0129c71c"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1522071820081-009f0129c71c"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1522071820081-009f0129c71c"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="reviews" class="section light-bg">
+      <div class="container">
+        <h2 class="section-title">Customer Reviews</h2>
+        <div class="review-slider">
+          <div class="review-track">
+            <div class="review-card">
+              <p>"Excellent insurance guidance and fast claim support."</p>
+              <div class="stars">★★★★★</div>
+              <h4>Rajesh Kumar</h4>
+            </div>
+            <div class="review-card">
+              <p>"Very professional team. Secured my family’s future."</p>
+              <div class="stars">★★★★★</div>
+              <h4>Anita Sharma</h4>
+            </div>
+            <div class="review-card">
+              <p>"Best advisory for business insurance planning."</p>
+              <div class="stars">★★★★☆</div>
+              <h4>Vikram Singh</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title">Contact Us</h2>
+        <form id="contactForm" class="contact-form">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit" class="primary-btn">Send Message</button>
+        </form>
+        <p id="formMsg"></p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>Preficient Enterprises</h3>
+          <p>Your trusted insurance partner.</p>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p><i class="fa-solid fa-phone"></i> +91 12345 67890</p>
+          <p><i class="fa-solid fa-envelope"></i> info@preficient.com</p>
+        </div>
+        <div class="footer-social">
+          <h4>Follow</h4>
+          <a href="#"><i class="fa-brands fa-whatsapp"></i></a
+          ><a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © 2026 Preficient Enterprises Marketing Private Limited
+      </div>
+    </footer>
+
+    <a href="https://wa.me/911234567890" class="whatsapp-btn"
+      ><i class="fa-brands fa-whatsapp"></i
+    ></a>
+
+    <script src="script.js"></script>
+  </body>
+</html>
